@@ -2,11 +2,11 @@
 › Create By Haikal
 › Base Ori Haikal
 
-🌷 KALAU MAU RENAME TARO CREDITS GUA : HW MODS WA */
+🌷 KALAU MAU RENAME TARO CREDITS GUA : 𝑊𝑎𝑙𝑧𝐼𝑠𝐻𝑒𝑟𝑒🤡🔥 */
 
 require('./hwkal')
 const { default: makeWASocket, useSingleFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto } = require("@adiwajshing/baileys")
-const { state }= useSingleFileAuthState(`./${sessionName}.json`)
+const { state }= useSingleFileAuthState('./${sessionName}.json')
 const pino = require('pino')
 const { Boom } = require('@hapi/boom')
 const fs = require('fs')

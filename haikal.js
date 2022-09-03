@@ -358,6 +358,7 @@ haikal.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }
 }
 break
 //=================================================//
+
 case 'troli2': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
@@ -674,22 +675,22 @@ if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 var pollCreation = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "pollCreationMessage": {
-"name": "HALO 👋 SAYA BOT 𝑊𝑎𝑙𝑧𝐼𝑠𝐻𝑒𝑟𝑒",
+"name": "HALO 👋 SAYA ZAKZ BOT!",
 "options": [
 	{
-"optionName": "𝑊𝑎𝑙𝑧𝐼𝑠𝐻𝑒𝑟𝑒"
+"optionName": "WA LU IMMUNE KAN?"
 	},
 	{
-"optionName": "𝐖𝐚𝐥𝐳𝐈𝐬𝐇𝐞𝐫𝐞"
+"optionName": "KALO IYA, DITEKAN DONG POLLNYA"
 	},
 	{
-"optionName": "𝔚𝔞𝔩𝔷ℑ𝔰ℌ𝔢𝔯𝔢"
+"optionName": "YAHH KATANYA IMMUNE TAPI KOK CRASH"
 	},
 	{
-"optionName": "⏤͟͞ঔৣོ⃟ཿ☔𝚆𝚊𝚕𝚣𝚃𝚑𝚎𝚁𝚊𝚒𝚗☔༃⃟⚟"
+"optionName": "KASIAN"
 	},
 	{
-"optionName": "SALAM BROTHER BY 𝑊𝑎𝑙𝑧𝐼𝑠𝐻𝑒𝑟𝑒"
+"optionName": "SALAM BROTHER BY ZakzXD"
 	}
 ],
 "selectableOptionsCount": 5
@@ -3987,6 +3988,7 @@ spam [ Reply Bug For Spam ]
 
 gaskal [ Bug Text Crash ]
 bugtag [ Bug Yang Sambil Ngetag ]
+bugsticker
 ha [ bugvn ]
 hi [ bugvn ]
 hu [ bugvn ]
